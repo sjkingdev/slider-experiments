@@ -1,0 +1,40 @@
+.slider_container {
+    border: 1px solid black;
+}
+
+.slider_inner {
+    border: 1px solid blue;
+
+}
+
+.slide {
+    border: 1px solid red;
+    /* height: 50vh; */
+    display: flex;
+}
+
+.thumb_slide {
+    border: 1px solid teal;
+    width: 100%;
+    margin: 0 auto;
+    height: 30vh;
+}
+
+.main_slide_wrapper {
+    width: 100%;
+    /* margin: 0 auto; */
+}
+
+.main_slide_item {
+    width: 100vw;
+    /* height: 50vh; */
+}
+
+.slide-body-image {
+    background-repeat: no-repeat !important;
+    background-size: 100% !important;;
+    height: 50vh;
+    object-fit: cover !important;
+    background-position: center center !important; 
+
+}
